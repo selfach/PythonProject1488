@@ -38,8 +38,6 @@
 #     print("Ноябрь")
 # if a == 12:
 #     print("Декабрь")
-# if a == 1488:
-#     print("Гитлер")
 # a = int(input("Введите число: "))
 # if a>0:
 #     print("number is posotive")
@@ -47,20 +45,43 @@
 #     print("Number is negativ")
 # elif a==0:
 #     print("Number is equal of zero")
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-if a != b:
-    print(*sorted([a,b]))
-user_number = int(input())
-if 1 <= user_number <= 100:
-    if user_number % 5 == 0 and
-     user_number % 3 == 0:
-     print("FIZ BUZ")
-    elif user_number % 3 == 0:
-        print("FIZ")
-    elif user_number % 5 == 0:
-       print("BUZ")
-    else:
-        print(user_number)
-else:
-    print("Неверно")
+# a = int(input("Введите первое число: "))
+# b = int(input("Введите второе число: "))
+# if a != b:
+#     print(*sorted([a,b]))
+# user_number = int(input())
+# if 1 <= user_number <= 100:
+#     if user_number % 5 == 0 and
+#      user_number % 3 == 0:
+#      print("FIZ BUZ")
+#     elif user_number % 3 == 0:
+#         print("FIZ")
+#     elif user_number % 5 == 0:
+#        print("BUZ")
+#     else:
+#         print(user_number)
+# else:
+#     print("Неверно")
+# lists = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
+# number = int(input("Введите число: ")) - 1
+# print(lists[number])
+# number = int(input("Введите число от 1 до 7:  "))
+# if number == 1:
+#     print("Понедельник")
+# elif number == 2:
+#         print("вт")
+# elif number == 7:
+#     print("вс")
+# elif number == 3:
+#     print("ср")
+# elif number == 4:
+#     print("чт")
+# elif number == 5:
+#     print("пт")
+# elif number == 6:
+#     print("сб")
+# elif number == 7:
+#     print("вс")
+# else:
+#     print("вы ввели неправильно число")
+#
