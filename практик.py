@@ -13,6 +13,8 @@
 #     print("суббота")
 # if a == 7:
 #     print("воскресенье")
+
+
 # a = int(input("Введите номер месяца: "))
 # if a == 1:
 #     print("Январь")
@@ -38,6 +40,8 @@
 #     print("Ноябрь")
 # if a == 12:
 #     print("Декабрь")
+
+
 # a = int(input("Введите число: "))
 # if a>0:
 #     print("number is posotive")
@@ -62,6 +66,8 @@
 #         print(user_number)
 # else:
 #     print("Неверно")
+
+
 # lists = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
 # number = int(input("Введите число: ")) - 1
 # print(lists[number])
