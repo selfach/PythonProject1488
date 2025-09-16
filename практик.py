@@ -91,3 +91,46 @@
 # else:
 #     print("вы ввели неправильно число")
 #
+
+#выполнение внутреннего кода
+# for i in range(1,100):
+#     print("апаю ммр день", i)
+#while (условие)
+# while True:
+#     print("----")
+# value_user = 1
+# sum_user = 1000
+# while value_user != 0: #пока выполняется условие
+#     value_user = int(input("число для сумирования: "))
+#     sum_user = sum_user - value_user
+# print("Сумма чисел:", sum_user)
+#*
+#**
+#***
+#****
+#*****
+#******
+# print("*\n**\n***\n****\n*****")
+# lol = 5
+# i = 1
+# while i <= lol:
+#     print('*' * i)
+#     i+=1
+#
+#Пользователь вводит строку
+#необходимо проверить ее на палиндром
+#кок, а буду я у дуба,
+user_string = input("Введите строку для проверки на Палиндром: ")
+cunter_letter = len(user_string) #функция подсчета
+value_user = True #перменная для проверки палиндрома
+#кол-ва элимента
+for letter_begin in range(0, counter_letter):
+    for letter_end in range(counter_letter, 0, -1):
+        print("Проверяется буква:",user_string[letter_begin])
+        print("Проверяется буква:",user_string[letter_end])
+        if letter_begin != letter_end:
+            value_user = False
+            break
+    if value_user == False:
+        print("слово не является палиндромом")
+        break
